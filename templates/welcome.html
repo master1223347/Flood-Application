@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Welcome</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  p {
+    color: #555;
+    margin-bottom: 10px;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h2>Welcome, {{ username }}!</h2>
+  <p>Your zip code is: {{ zipcode }}</p>
+  <p>Your email is: {{ email }}</p>
+  <p> The chance of rain is: 60%</p>
+  <p> It will rain until: 5pm</p>
+  <p> Chance of flood is: 4%</p>
+  <p> Water level: N/A</p>
+</div>
+<br>
+<a href="descript.html">
+    <button> Info</button>
+</a>
+
+</body>
+</html>

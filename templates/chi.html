@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>欢迎</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  p {
+    color: #555;
+    margin-bottom: 10px;
+  }
+  .button{
+    background-color:blue;
+    color:white;
+    font-size:25px;
+    border: 2px solid black;
+    border-radius:5px;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h2>欢迎, {{ username }}!</h2>
+  <p>您的邮政编码是: {{ zipcode }}</p>
+  <p>您的电子邮件是: {{ email }}</p>
+  <p> 下雨的几率是：60%</p>
+  <p> 下雨直到：下午 5 点</p>
+  <p> 发生洪水的几率是：4%</p>
+  <p>水位：不详</p>
+</div>
+<br>
+<a href="descript.html">
+    <button> Info</button>
+</a>
+  
+</body>
+</html>
+
